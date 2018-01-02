@@ -1,6 +1,261 @@
 <!DOCTYPE html>
-<html>
+<html dir="ltr" lang="ja">
+
+<head>
+  <title>chorome</title>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="chorome, ちょろめ, unity, github, blog">
+	<meta name="description" content="A single-page template for Jekyll based blogs (like what you'd use on github pages!)">
+
+  <!-- 自前スクリプト -->
+  <link rel="stylesheet" href="combo.css">
+  <link rel="stylesheet" href="/assets/css/profile.css">
+
+  <!-- jquery -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- slick : 画像 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <!-- lightbox2 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
+
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+</head>
+
 <body>
-<h1>Hello World</h1>
+  <div id="main">
+
+    <nav><ul>
+      
+        
+        <li class="p-intro"><a href="#intro">Profile</a></li>
+      
+        
+        <li class="p-game-works"><a href="#game-works">Game Works</a></li>
+      
+        
+        <li class="p-app-works"><a href="#app-works">APP Works</a></li>
+      
+    </ul></nav>
+
+    
+      
+      <div id="intro" class="section p-intro">
+        
+        <div class="container center">
+          <div class="container">
+
+  <h1 id="profile">Profile</h1>
+
+  <div class="profile">
+    <div class="profile-img">
+        <img src="./assets/img/yukari.jpg" />
+    </div>
+
+    <div class="profile-content">
+      <h1>ちょろめ</h3>
+      <p>
+        Member of <a href="https://denx.jp" target="_blank">DENX</a><br />
+        Doshisha University Student<br />
+        <br />
+        Game Engineer / Application Engineer<br />
+        <br />
+      </p>
+
+      <p>
+        プログラマです。Unityを使用してゲームを作ったり、Railsを使ってWebアプリを作ったりしています。dockerも使えます。
+      </p>
+
+      <ul class="social-icon">
+        
+        <li>
+          <a href="https://twitter.com/twitter" target="_blank">
+            <i class="fa fa-twitter fa-lg"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a href="https://facebook.com/facebook" target="_blank">
+            <i class="fa fa-facebook fa-lg"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a href="https://github.com/github" target="_blank">
+            <i class="fa fa-github fa-lg"></i>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    
+      
+      <div id="game-works" class="section p-game-works">
+        
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-gamepad fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">Game Works</h5>
+        </div>
+        
+        <div class="container ">
+          <!-- <ul class="sample">
+  <li>
+    <div class="item youtube">
+      <iframe src="https://www.youtube.com/embed/bxyrG1hxx04"
+        id="player"
+        width="1080"
+        height="580"
+        iv_load_policy=3
+        rel=0
+        showinfo=0
+      ></iframe>
+    </div>
+  </li>
+  <li>
+    <a href="assets/img/works/soukai.png"
+        data-lightbox="app"
+        data-lightbox="総会あぷぷ"
+        data-title="DENXの総会の出欠をとるアプリ">
+      <img src="assets/img/works/soukai.png">
+    </a>
+  </li>
+</ul> -->
+
+<section class="main-slider">
+  <div class="item image">
+    <span class="loading">Loading...</span>
+    <figure>
+      <div class="slide-image slide-media" style="background-image:url('https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRkY4S0JDTk1BbE0');">
+        <img data-lazy="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRkY4S0JDTk1BbE0" class="image-entity" />
+      </div>
+      <figcaption class="caption">Static Image</figcaption>
+    </figure>
+  </div>
+  <div class="item vimeo" data-video-start="4">
+    <iframe class="embed-player slide-media" src="https://player.vimeo.com/video/217885864?api=1&byline=0&portrait=0&title=0&background=1&mute=1&loop=1&autoplay=0&id=217885864" width="980" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <p class="caption">Vimeo</p>
+  </div>
+  <div class="item image">
+    <figure>
+      <div class="slide-image slide-media" style="background-image:url('https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM');">
+        <img data-lazy="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM" class="image-entity" />
+      </div>
+      <figcaption class="caption">Static Image</figcaption>
+    </figure>
+  </div>
+  <div class="item youtube">
+    <iframe class="embed-player slide-media" width="980" height="520" src="https://www.youtube.com/embed/tdwbYGe8pv8?enablejsapi=1&controls=0&fs=0&iv_load_policy=3&rel=0&showinfo=0&loop=1&playlist=tdwbYGe8pv8&start=102" frameborder="0" allowfullscreen></iframe>
+    <p class="caption">YouTube</p>
+  </div>
+  <div class="item image">
+    <figure>
+      <div class="slide-image slide-media" style="background-image:url('https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLSlBkWDBsWXJNazQ');">
+        <img data-lazy="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLSlBkWDBsWXJNazQ" class="image-entity" />
+      </div>
+      <figcaption class="caption">Static Image</figcaption>
+    </figure>
+  </div>
+  <div class="item video">
+    <video class="slide-video slide-media" loop muted preload="metadata" poster="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLSXZCakVGZWhOV00">
+      <source src="https://player.vimeo.com/external/138504815.sd.mp4?s=8a71ff38f08ec81efe50d35915afd426765a7526&profile_id=112" type="video/mp4" />
+    </video>
+    <p class="caption">HTML 5 Video</p>
+  </div>
+</section>
+
+        </div>
+      </div>
+    
+      
+      <div id="app-works" class="section p-app-works">
+        
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-toggle-on fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">APP Works</h5>
+        </div>
+        
+        <div class="container ">
+          <ul class="sample">
+  <li>
+    <a href="assets/img/works/anicap.jpg"
+        data-lightbox="app"
+        data-lightbox="あにきゃぷ"
+        data-title="アニメのキャプチャ画像を収集して、自動でタグ付けしたいサービス。開発中。">
+      <img src="assets/img/works/anicap.jpg" height="580px">
+    </a>
+  </li>
+  <li>
+    <a href="assets/img/works/soukai.png"
+        data-lightbox="app"
+        data-lightbox="総会あぷぷ"
+        data-title="DENXの総会の出欠をとるアプリ">
+      <img src="assets/img/works/soukai.png">
+    </a>
+  </li>
+</ul>
+
+        </div>
+      </div>
+    
+
+
+    <div id="footer" class="section text-white">
+      <div class="container">
+        
+        
+<p>Design by Tim O’Brien <a href="http://t413.com/">t413.com</a>
+—
+<a href="https://github.com/t413/SinglePaged">SinglePaged theme</a>
+—
+this site is <a href="https://github.com/t413/SinglePaged">open source</a></p>
+
+
+      </div>
+    </div>
+  </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-49607422-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script src="./assets/javascript/site.js"></script>
+<script src="./assets/javascript/slider.js"></script>
 </body>
+
 </html>
