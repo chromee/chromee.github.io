@@ -65,10 +65,10 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-intro { border-color: #9bcf2f; }
-  #intro { background-color: #9bcf2f !important; color: #f8f8f8; }
-  #intro a { color: #f8f8f8; }
-  #intro .sectiondivider { color: #9bcf2f; }
+  nav .p-profile { border-color: #9bcf2f; }
+  #profile { background-color: #9bcf2f !important; color: #f8f8f8; }
+  #profile a { color: #f8f8f8; }
+  #profile .sectiondivider { color: #9bcf2f; }
 
 
 
