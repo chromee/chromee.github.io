@@ -37,7 +37,7 @@ function resizePlayer(slides) {
     width = win.width(),
     height = win.height(),
     ratio = 16 / 9;
-    
+
   slides.each(function() {
     var current = $(this);
     if (width / height < ratio) {
@@ -61,13 +61,14 @@ function resizePlayer(slides) {
 // DOM Ready
 $(function() {
   // Initialize
+  resizePlayer(iframes);
+  resizePlayer(images);
+
   gameSlider.on("init", function(slick) {
     slick = $(slick.currentTarget);
     setTimeout(function() {
       playPauseVideo(slick, "play");
     }, 1000);
-    resizePlayer(iframes);
-    resizePlayer(images);
   });
   gameSlider.on("beforeChange", function(event, slick) {
     slick = $(slick.$slider);
