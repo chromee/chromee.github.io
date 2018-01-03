@@ -13,6 +13,7 @@
   margin-top: 0.2em; }
 
 .profile-img img {
+  margin-top: 10px;
   border-radius: 300px;
   border: 5px solid #9bcf2f;
   -webkit-border-radius: 300px;
@@ -21,13 +22,24 @@
 
 .profile-content {
   text-align: left;
-  padding-left: 100px;
-  font-family: "Noto Sans Japanese"; }
-  .profile-content h1, .profile-content p, .profile-content ul {
-    text-align: left;
-    padding: 0;
-    width: 300px; }
+  font-family: "Noto Sans Japanese";
+  font-size: 17px;
+  padding: 0 5%; }
 
+@media only screen and (max-width: 679px) {
+  .profile-img {
+    max-width: 50%;
+    margin: 0 auto; }
+    .profile-img img {
+      border-radius: 150px;
+      border: 5px solid #9bcf2f;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      max-width: 150px; }
+
+  .profile-content {
+    padding-top: 20px;
+    text-align: center; } }
 ul.social-icon {
   margin-top: 20px; }
   ul.social-icon li {

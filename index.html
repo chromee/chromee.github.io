@@ -9,10 +9,6 @@
 	<meta name="keywords" content="chorome, chrome, ちょろめ, unity, github, blog, rails, docker, denx, でんくす">
 	<meta name="description" content="A single-page template for Jekyll based blogs (like what you'd use on github pages!)">
 
-  <!-- 自前スクリプト -->
-  <link rel="stylesheet" href="assets/css/combo.css">
-  <link rel="stylesheet" href="assets/css/profile.css">
-
   <!-- jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
@@ -30,12 +26,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
 
+  <!-- 自前スクリプト -->
+  <link rel="stylesheet" href="assets/css/combo.css">
+  <link rel="stylesheet" href="assets/css/profile.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-override.css">
   <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 </head>
 
 <body>
-  <div id="main" class="container-fluid">
+  <div class="container-fluid">
 
     <nav><ul>
       
@@ -50,12 +50,12 @@
       
     </ul></nav>
 
+    
       
+      <div id="profile" class="section p-profile row">
         
-        <div id="profile" class="section p-profile">
-          
-          <div class="container center">
-            <h1 id="profile">Profile</h1>
+        <div class="container center">
+          <h1 id="profile">Profile</h1>
 
 <div class="profile row">
   <div class="profile-img col-md-2 col-md-offset-1">
@@ -63,13 +63,12 @@
   </div>
 
   <div class="profile-content col-md-6 col-md-offset-2">
-    <h1>ちょろめ</h3>
+    <h1>ちょろめ</h1>
     <p>
       Member of <a href="https://denx.jp" target="_blank">DENX</a><br />
       Doshisha University Student<br />
       <br />
       Game Engineer / Application Engineer<br />
-      <br />
     </p>
 
     <p>
@@ -102,23 +101,23 @@
   </div>
 </div>
 
-          </div>
         </div>
+      </div>
+    
       
+      <div id="game-works" class="section p-game-works row">
         
-        <div id="game-works" class="section p-game-works">
-          
-          <div class="subtlecircle sectiondivider faicon">
-            <span class="fa-stack">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-gamepad fa-stack-1x"></i>
-            </span>
-            <h5 class="icon-title">Game Works</h5>
-          </div>
-          
-          <div class="container ">
-            <div class="row">
-  <section class="game-slider col-md-10 col-md-offset-1">
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-gamepad fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">Game Works</h5>
+        </div>
+        
+        <div class="container ">
+          <div class="row">
+  <section class="game-slider">
     <div>
       <iframe
         src="https://www.youtube.com/embed/bhA41joXAps?enablejsapi=1&controls=0&fs=0&iv_load_policy=3&rel=0&showinfo=0&loop=1&start=10"
@@ -155,35 +154,26 @@
         frameborder="0">
       </iframe>
     </div>
-    <div>
-      <iframe
-        src="https://www.youtube.com/embed/tdwbYGe8pv8?enablejsapi=1&controls=0&fs=0&iv_load_policy=3&rel=0&showinfo=0&loop=1&playlist=tdwbYGe8pv8&start=102"
-        class="embed-player slide-media"
-        width="980"
-        height="520"
-        frameborder="0">
-      </iframe>
-    </div>
   </section>
 </div>
 
-          </div>
         </div>
+      </div>
+    
       
+      <div id="app-works" class="section p-app-works row">
         
-        <div id="app-works" class="section p-app-works">
-          
-          <div class="subtlecircle sectiondivider faicon">
-            <span class="fa-stack">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-folder fa-stack-1x"></i>
-            </span>
-            <h5 class="icon-title">APP Works</h5>
-          </div>
-          
-          <div class="container ">
-            <div class="row">
-  <section class="app-slider col-md-10 col-md-offset-1">
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-folder fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">APP Works</h5>
+        </div>
+        
+        <div class="container ">
+          <div class="row">
+  <section class="app-slider">
     <div>
       <a href="assets/img/works/anicap.jpg"
           data-lightbox="app"
@@ -203,23 +193,9 @@
   </section>
 </div>
 
-          </div>
         </div>
-      
-
-    <div id="footer" class="section text-white">
-      <div class="container">
-        
-        
-<p>Design by Tim O’Brien <a href="http://t413.com/">t413.com</a>
-—
-<a href="https://github.com/t413/SinglePaged">SinglePaged theme</a>
-—
-this site is <a href="https://github.com/t413/SinglePaged">open source</a></p>
-
-
       </div>
-    </div>
+    
   </div>
 
 

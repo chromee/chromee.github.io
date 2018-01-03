@@ -37,25 +37,23 @@ function resizePlayer(slides) {
     width = win.width(),
     height = win.height(),
     ratio = 16 / 9;
-
-  console.log(width + " " + height);
-
+    
   slides.each(function() {
     var current = $(this);
     if (width / height < ratio) {
-      var playerWidth = Math.ceil(height * ratio);
-      console.log("playerWidth " + playerWidth);
-      current.width(playerWidth).height(height).css({
-        left: (width - playerWidth) / 2,
-        top: 0
-      });
-    } else {
       var playerHeight = Math.ceil(width / ratio);
-      console.log("playerHeight " + playerHeight);
       current.width(width).height(playerHeight).css({
         left: 0,
         top: (height - playerHeight) / 2
       });
+      win.width(width).height(playerHeight);
+    } else {
+      var playerWidth = Math.ceil(height * ratio);
+      current.width(playerWidth).height(height).css({
+        left: (width - playerWidth) / 2,
+        top: 0
+      });
+      win.width(playerWidth).height(height);
     }
   });
 }
