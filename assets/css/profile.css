@@ -12,25 +12,14 @@
   height: 2px;
   margin-top: 0.2em; }
 
-.profile {
-  display: table;
-  width: 100%;
-  padding-left: 100px; }
-
-.profile-img {
-  display: table-cell;
-  vertical-align: middle;
-  width: 300px; }
-  .profile-img img {
-    border-radius: 300px;
-    border: 5px solid #9bcf2f;
-    -webkit-border-radius: 300px;
-    -moz-border-radius: 300px;
-    max-width: 300px; }
+.profile-img img {
+  border-radius: 300px;
+  border: 5px solid #9bcf2f;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  max-width: 300px; }
 
 .profile-content {
-  display: table-cell;
-  vertical-align: top;
   text-align: left;
   padding-left: 100px;
   font-family: "Noto Sans Japanese"; }

@@ -31,25 +31,27 @@ function playPauseVideo(slick, control) {
 }
 
 // Resize player
-function resizePlayer(slides, ratio) {
+function resizePlayer(slides) {
   if (!slides[0]) return;
   var win = $(".game-slider"),
     width = win.width(),
-    playerWidth,
     height = win.height(),
-    playerHeight,
-    ratio = ratio || 16 / 9;
+    ratio = 16 / 9;
+
+  console.log(width + " " + height);
 
   slides.each(function() {
     var current = $(this);
-    if (width / ratio < height) {
-      playerWidth = Math.ceil(height * ratio);
+    if (width / height < ratio) {
+      var playerWidth = Math.ceil(height * ratio);
+      console.log("playerWidth " + playerWidth);
       current.width(playerWidth).height(height).css({
         left: (width - playerWidth) / 2,
         top: 0
       });
     } else {
-      playerHeight = Math.ceil(width / ratio);
+      var playerHeight = Math.ceil(width / ratio);
+      console.log("playerHeight " + playerHeight);
       current.width(width).height(playerHeight).css({
         left: 0,
         top: (height - playerHeight) / 2
@@ -66,8 +68,8 @@ $(function() {
     setTimeout(function() {
       playPauseVideo(slick, "play");
     }, 1000);
-    resizePlayer(iframes, 16 / 9);
-    resizePlayer(images, 16 / 9);
+    resizePlayer(iframes);
+    resizePlayer(images);
   });
   gameSlider.on("beforeChange", function(event, slick) {
     slick = $(slick.$slider);
@@ -105,7 +107,7 @@ $(function() {
   });
 });
 
-$(window).on("resize.slickVideoPlayer", function() {
-  resizePlayer(iframes, 16 / 9);
-  resizePlayer(images, 16 / 9);
+$(window).on("load resize", function() {
+  resizePlayer(iframes);
+  resizePlayer(images);
 });
