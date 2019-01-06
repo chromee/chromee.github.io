@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2019-01-07T03:52:10+09:00</updated>
+  <id>http://localhost:4000/</id>
+
+  
+    <title type="html">Choro.me</title>
+  
+
+  
+    <subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      <title type="html">Yakimori</title>
+      <link href="http://localhost:4000/game,%20unity,%20vr/2018/11/25/yakimori/" rel="alternate" type="text/html" title="Yakimori" />
+      <published>2018-11-25T00:00:00+09:00</published>
+      <updated>2018-11-25T00:00:00+09:00</updated>
+      <id>http://localhost:4000/game,%20unity,%20vr/2018/11/25/yakimori</id>
+      <content type="html" xml:base="http://localhost:4000/game,%20unity,%20vr/2018/11/25/yakimori/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Game, Unity, VR" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Honey Stack</title>
+      <link href="http://localhost:4000/web,%20game,%20unity/2018/11/25/honey-stack/" rel="alternate" type="text/html" title="Honey Stack" />
+      <published>2018-11-25T00:00:00+09:00</published>
+      <updated>2018-11-25T00:00:00+09:00</updated>
+      <id>http://localhost:4000/web,%20game,%20unity/2018/11/25/honey-stack</id>
+      <content type="html" xml:base="http://localhost:4000/web,%20game,%20unity/2018/11/25/honey-stack/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web, Game, Unity" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Capriccio</title>
+      <link href="http://localhost:4000/web,%20ruby%20on%20rails/2018/05/25/capriccio/" rel="alternate" type="text/html" title="Capriccio" />
+      <published>2018-05-25T00:00:00+09:00</published>
+      <updated>2018-05-25T00:00:00+09:00</updated>
+      <id>http://localhost:4000/web,%20ruby%20on%20rails/2018/05/25/capriccio</id>
+      <content type="html" xml:base="http://localhost:4000/web,%20ruby%20on%20rails/2018/05/25/capriccio/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web, Ruby on Rails" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Code:asynC</title>
+      <link href="http://localhost:4000/game,%20unity,%20unet,%20multi%20player/2017/11/25/ssp/" rel="alternate" type="text/html" title="Code:asynC" />
+      <published>2017-11-25T00:00:00+09:00</published>
+      <updated>2017-11-25T00:00:00+09:00</updated>
+      <id>http://localhost:4000/game,%20unity,%20unet,%20multi%20player/2017/11/25/ssp</id>
+      <content type="html" xml:base="http://localhost:4000/game,%20unity,%20unet,%20multi%20player/2017/11/25/ssp/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Game, Unity, Unet, Multi Player" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Soukai App</title>
+      <link href="http://localhost:4000/web,%20ruby%20on%20rails/2016/08/14/soukai-app/" rel="alternate" type="text/html" title="Soukai App" />
+      <published>2016-08-14T00:00:00+09:00</published>
+      <updated>2016-08-14T00:00:00+09:00</updated>
+      <id>http://localhost:4000/web,%20ruby%20on%20rails/2016/08/14/soukai-app</id>
+      <content type="html" xml:base="http://localhost:4000/web,%20ruby%20on%20rails/2016/08/14/soukai-app/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web, Ruby on Rails" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Vr Panzer</title>
+      <link href="http://localhost:4000/game,%20unity,%20vr/2015/05/20/vr-panzer/" rel="alternate" type="text/html" title="Vr Panzer" />
+      <published>2015-05-20T00:00:00+09:00</published>
+      <updated>2015-05-20T00:00:00+09:00</updated>
+      <id>http://localhost:4000/game,%20unity,%20vr/2015/05/20/vr-panzer</id>
+      <content type="html" xml:base="http://localhost:4000/game,%20unity,%20vr/2015/05/20/vr-panzer/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Game, Unity, VR" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Galaxy Labyrinth</title>
+      <link href="http://localhost:4000/game,%20unity/2014/07/18/galaxy-labyrinth/" rel="alternate" type="text/html" title="Galaxy Labyrinth" />
+      <published>2014-07-18T00:00:00+09:00</published>
+      <updated>2014-07-18T00:00:00+09:00</updated>
+      <id>http://localhost:4000/game,%20unity/2014/07/18/galaxy-labyrinth</id>
+      <content type="html" xml:base="http://localhost:4000/game,%20unity/2014/07/18/galaxy-labyrinth/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Game, Unity" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
